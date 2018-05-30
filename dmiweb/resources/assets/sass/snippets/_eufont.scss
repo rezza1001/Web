@@ -1,0 +1,77 @@
+
+@font-face {
+	font-family: 'eufont';
+	src:url('../vendor/eufont/fonts/eufont.eot');
+	src:url('../vendor/eufont/fonts/eufont.eot') format('embedded-opentype'),
+		url('../vendor/eufont/fonts/eufont.woff') format('woff'),
+		url('../vendor/eufont/fonts/eufont.ttf') format('truetype'),
+		url('../vendor/eufont/fonts/eufont.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icons-"], [class*=" icons-"]{
+	font-family: 'eufont';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icons-favorite:before {
+	content: "\e7f0";
+}
+
+
+.icons-play:before {
+	content: "\e647";
+}
+
+.icons-chevron-left:before {
+	content: "\e64e";
+}
+
+.icons-chevron-right:before {
+	content: "\e64f";
+}
+
+.icons-instagram:before {
+	content: "\e749";
+}
+.icons-youtube:before {
+	content: "\e743";
+}
+.icons-twitter:before {
+	content: "\e690";
+}
+
+.icons-facebook:before {
+	content: "\e691";
+}
+
+.icons-search:before {
+	content: "\e825";
+}
+.icons-rss:before {
+	content: "\e695";
+}
+.icons-pause:before {
+	content: "\e648";
+}
+
+.icons-stop:before {
+	content: "\e649";
+}
+.icons-close:before {
+	content: "\ea6e";
+}
+
+.icons-google-plus:before {
+	content: "\e6bc";
+}

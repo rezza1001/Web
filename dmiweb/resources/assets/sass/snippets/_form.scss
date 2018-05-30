@@ -1,0 +1,273 @@
+/* ================= FORM  ==================== */
+
+form label {
+    display: block;
+    line-height: 1;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0 0 10px 0;
+}
+
+form label.error {
+    color: #c00;
+    padding: 10px 0;
+}
+
+form {
+    margin: 0;
+}
+
+input[type=text],
+input[type=password],
+input[type=email],
+input[type=number],
+textarea {
+    background: #f2f2f2;
+    height: 45px;
+    border: 1px solid #e7e7e7;
+    color: #696969;
+    box-shadow: none;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    padding:10px;
+    font-size:14px;
+    width: 100%;
+}
+
+input[type=text].error,
+input[type=password].error,
+input[type=email].error,
+input[type=number].error,
+textarea.error {
+    border-color: #c00;
+}
+
+form .button {
+    color: $light-font-color;
+    height: 45px !important;
+    padding: 0 46px;
+}
+
+form .button:hover {
+    background: $primary-color;
+    color: #333;
+}
+
+textarea {
+    padding: 10px;
+    height: 100px;
+    resize: none;
+}
+
+.rows {
+    margin: 0 0 20px 0;
+}
+
+.selectstyle {
+    padding: 0 5px;
+    width: 100%;
+    margin: 0 auto 20px auto;
+    border-radius: 0px;
+    height: 45px;
+    line-height: 45px;
+    overflow: hidden;
+    background-color: #f2f2f2;
+    position: relative;
+    text-transform:uppercase;
+    font-size: 14px;
+}
+
+.selectstyle:after {
+    content: "\f123";
+    font-family: 'Ionicons';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    position: absolute;
+    right: 10px;
+    top: 0;
+    font-size: 20px;
+    line-height: 45px;
+    color:#666;
+}
+
+.selectstyle select {
+    font-size: 14px;
+    padding: 5px 8px;
+    height: 45px;
+    width: 100%;
+    border: none;
+    box-shadow: none;
+    background-color: transparent;
+    background-image: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    text-transform:uppercase;
+}
+
+.selectstyle select:focus {
+    outline: none;
+}
+select{
+    width:100%;
+}
+.select2 {
+    min-width: 280px;
+}
+
+.select2-container--default .select2-selection--single {
+    background-color:#f2f2f2;
+    border: 1px solid #e7e7e7;
+    padding:5px 10px;
+    height:auto;
+    border-radius:0;
+}
+.select2-container--default .select2-selection--single .select2-selection__arrow{
+    top:7px;
+}
+.select2-container--default .select2-selection--multiple,
+.select2-container--default.select2-container--focus .select2-selection--multiple {
+    background-color:#f2f2f2;
+    border: 1px solid #e7e7e7;
+    height:auto;
+    border-radius:0;
+}
+div.tagsinput span.tag{
+    padding:0 5px;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+    color: #999;
+    padding: 0;
+}
+
+.select2-container--default .select2-selection--multiple .select2-selection__choice,
+.select2-container--default .select2-selection--multiple .select2-selection__choice {
+    border: solid 1px #bdbdbd;
+    border-radius: 0;
+    padding: 0 7px;
+    background: none;
+}
+.select2-container--default .select2-selection--multiple .select2-selection__choice{
+    background-color:#fff;
+    border:solid 1px #ccc;
+}
+.ui-datepicker-title select {
+    color: #333;
+}
+
+::-webkit-input-placeholder {
+    color: #999;
+    text-transform:uppercase;
+}
+
+:-moz-placeholder {
+    /* Firefox 18- */
+    color: #999;
+    text-transform:uppercase;
+}
+
+::-moz-placeholder {
+    /* Firefox 19+ */
+    color: #999;
+    text-transform:uppercase;
+}
+
+:-ms-input-placeholder {
+    color: #999;
+    text-transform:uppercase;
+}
+
+[placeholder]:focus::-webkit-input-placeholder {
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    -webkit-transform: translate(300px, 0);
+    -moz-transform: translate(300px, 0);
+    -ms-transform: translate(300px, 0);
+    -o-transform: translate(300px, 0);
+    transform: translate(300px, 0);
+    opacity: 0;
+}
+
+#searchbox {
+    margin-left: 10px;
+}
+
+#searchbox.active {
+    display: block;
+}
+
+#searchbox input[type=text] {
+    height: 30px;
+    padding: 0 15px;
+    border-radius: 20px;
+    border: solid 1px #ddd;
+}
+
+.searchform {
+    max-width: inherit;
+    position: relative;
+}
+
+.searchform .btn-search {
+    position: absolute;
+    right: 5px;
+    top: 2px;
+}
+
+#popup-login {
+    max-width: 400px;
+}
+
+.login-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding:0 20px;
+}
+.login-form .col-md-6{
+    width: 50%;
+    float:left;
+}
+.boxForm {
+    width: 100%;
+    max-width: 500px;
+    margin: 40px auto;
+}
+.boxForm span {
+    font-size: 12px;
+}
+
+.login-form input[type=text],
+.login-form input[type=email],
+.login-form input[type=password] {
+    border: solid 1px;
+    border-color: #ccc;
+}
+
+.login-form .button {
+    min-width: 150px;
+    width: 100%;
+}
+
+.remember-me {
+    overflow: hidden;
+    position: relative;
+}
+
+.remember-me .checkbox {
+    float: left;
+    margin: 0 10px;
+}
+
+.remember-me label {
+    float: left;
+}

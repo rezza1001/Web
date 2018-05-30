@@ -1,0 +1,244 @@
+
+/* ================= BUTTON  ==================== */
+a{
+  color:$second-color;
+}
+a:hover,
+a:focus{
+  color:$primary-color;
+  text-decoration:none;
+}
+.button{
+  background-color:#000;
+  color: #fff;
+  box-shadow: none;
+  padding: 8px 16px;
+  text-transform: capitalize;
+  font-size: 13px;
+  border: 0 !important;
+  height: 35px !important;
+  display: inline-block;
+  margin: 0;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.button:hover,.button:focus{
+  background: $second-color;
+  color:#fff;
+  text-decoration: none;
+}
+.btn-s{
+  padding:0 20px;
+  line-height:30px; height:30px;
+  font-size:12px;
+}
+.btn-light{
+  background-color:transparent;
+  border-color: $light-color;
+  color:$light-color;
+}
+.btn-white{
+  background: #fff;
+  color:$bg-dark;
+  border:solid 1px #fff;
+}
+.btn-primary{
+  background-color: $second-color;
+  border-color: $second-color;
+  color:$light-color;
+  letter-spacing:1px;
+}
+.btn-o-primary{
+  background-color:transparent;
+  border-color: $second-color;
+  color:$second-color;
+  letter-spacing:1px;
+}
+form .btn-white{
+  color:$bg-dark;
+  padding:0 20px;
+  line-height:30px; height:30px;
+  font-size:12px;
+  margin:0;
+  float:none;
+}
+.btn-light-blue{
+  background-color:transparent;
+  border-color: $primary-color;
+  color:$primary-color;
+}
+.play-btn{
+  width:56px; height:56px;
+  left: 50%; top:50%;
+  margin:-23px 0 0 -23px;
+  display:block;
+  position: absolute;
+  color:$light-font-color;
+  border:solid 1px;
+  border-color:$light-font-color;
+  border-radius:50%;
+  text-align:center;
+}
+.play-btn i:before{
+  @include responsive-font(3vw, 22px, 30px);
+  line-height:55px;
+}
+.play-btn:hover{
+  text-decoration: none;
+  color:$primary-color;
+  border-color:$primary-color;
+}
+.btn-more{
+  color:#000;
+  position:absolute;
+  right:10px; bottom:2px;
+  font-size:12px;
+}
+.btn-more i{
+  font-size:20px;
+  margin-left: 10px;
+}
+.btn-more span{
+  font-size: 12px;
+  line-height: 31px;
+  display: inline-block;
+  vertical-align: top;
+}
+.likebtn{
+  margin-left: auto;
+  border:solid 1px;
+  border-radius:8px;
+  border-color:$bg-light;
+  min-width: 50px;
+  display:block; width:50px; height:50px;
+  text-align:center;
+  color:$bg-light;
+}
+.likebtn:focus{
+  color:$bg-light;
+}
+.likebtn.hasLike{
+  color:$primary-color;
+}
+.likebtn i:before{
+  @include responsive-font(3vw, 22px, 40px);
+  line-height: 50px;
+}
+.likebtn:hover{
+  color:$primary-color;
+  text-decoration:none;
+}
+.likebtn-s{
+  width:40px; height:40px;
+  min-width: 40px;
+}
+.likebtn-s i:before{
+  @include responsive-font(2vw, 18px, 30px);
+  line-height:40px;
+}
+.btn-search,.btn-go{
+  font-size: 20px;
+  widows: 30px;
+  background:none;
+  border:none;
+  color:#333;
+  padding: 0;
+  margin: 0;
+  line-height: 30px;
+}
+.btn-go{
+  color:#666;
+  height:20px;
+  position:relative;
+}
+.btn-go i:before{
+  height:20px;
+  display:block;
+  position:absolute;
+  right: 0; top:0;
+  text-align:center;
+}
+.box-nav a{
+  margin:0 10px;
+}
+.box-nav a i{
+  margin-right: 3px;
+}
+.socialLogin{
+  display:flex;
+}
+.socialLogin .button{
+  padding:0;
+  display:flex;
+  justify-content:center;
+  line-height:35px;
+}
+.socialLogin i{
+  font-size:20px;
+  margin:0 5px 0 0;
+}
+.loginGoogle{
+  background:#e50d0d;
+  border:solid 1px #e50d0d;
+  border-radius:0 20px 20px 0;
+}
+.loginFacebook{
+  background:#4267b2;
+  border:solid 1px #4267b2;
+  border-radius:20px 0 0 20px;
+}
+.loginGoogle:hover,.loginFacebook:hover,.login-form .button:hover{
+  background:#333;
+  border:solid 1px #333;
+  color:#fff;
+}
+.share-drop > .dropdown-menu{
+  padding:0;
+  margin:0;
+}
+.dropdown-menu > li > a{
+  color:#fff;
+  line-height:30px;
+  padding:0 15px 0 0;
+}
+.dropdown-menu > li > a i:before{
+  color:#fff;
+  display:inline-block;
+  line-height:30px;
+  width:30px;
+  text-align:center;
+  vertical-align:top;
+}
+.dropdown-menu > li > a.shareFacebook{
+  background:#215FDD;
+}
+.dropdown-menu > li > a.shareTwitter{
+  background:#49B7DD
+}
+.dropdown-menu > li > a:hover{
+  background:$primary-color;
+  color:$light-font-color;
+}
+.navigation-user{
+  background-color:#f3f3f3;
+}
+.user-action{
+  text-align:center;
+}
+.btn-group > .btn{
+  border-radius:0;
+}
+a.btn-tab{
+  color: #333;
+  line-height: 38px;
+  padding: 0 20px;
+}
+.readmore{
+  text-transform:uppercase;
+  font-size:12px;
+  display: block;
+  margin-top: 20px;
+}

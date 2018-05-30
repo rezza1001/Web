@@ -1,0 +1,61 @@
+/* ================= HEADER  ==================== */
+header{
+  top:0;left:0;
+  width: 100%;
+  z-index: 10;
+}
+header.stick{
+  z-index: 1000;
+}
+#top{
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+header .container{
+  display:flex;
+  align-items: center;
+  flex-direction:column;
+  justify-content:center;
+}
+.headerbox{
+}
+.logo img{
+  width: 100%;
+}
+.logo{
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+  font-size: 40px;
+  font-weight: 700;
+  width: 100px;
+  margin:20px 0 10px 0;
+}
+.box-nav{
+  padding: 3px 0;
+  text-align: right;
+  display:flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-left:auto;
+}
+.box-nav a{
+  color:#000;
+  font-size: 12px;
+}
+.box-nav a.btn-search{
+  font-size:16px;
+}
+.vegas-overlay:after{
+  content:'';
+  position: absolute;
+  width: 100%; height: 100%;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&0.6+0,0+100 */
+background: -moz-linear-gradient(top, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#99000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+}

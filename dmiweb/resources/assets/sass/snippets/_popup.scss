@@ -1,0 +1,74 @@
+/* ================= POPUP  ==================== */
+.popup{
+  display: none;
+}
+.popup-container{
+  background: #fff;
+  max-width: 700px;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+}
+.popup-header{
+  background:$second-color;
+  padding:20px;
+  color: $light-font-color;
+}
+.popup-header h3,.popup-body p{
+	margin:0;
+}
+.popup-body{
+  padding:20px;
+}
+.popup-footer{
+  padding:20px;
+}
+#popup-message{
+  text-align: center;
+}
+#popup-content{
+  text-align:center;
+  padding:0 0 30px 0;
+}
+#popup-content .button{
+  min-width: 120px;
+}
+#popup-vote .popup-body{
+  padding:0;
+}
+.popup-entry-meta{
+  text-align:center;
+  font-size:14px;
+  padding:20px;
+}
+.popup-entry-title{
+  margin: 0 0 10px 0;
+}
+.popup-entry-meta span{
+  display:block;
+}
+.popup-entry{
+  padding:0 20px 30px 20px;
+}
+.popup-entry p{
+  font-size:14px;
+}
+.popup-date{
+  color:#999;
+}
+.counterVote{
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  font-size: 30px;
+  color: #fff;
+}
+.icon-countVote{
+  font-size: 16px;
+  margin: 0 5px;
+}
+.mfp-close-btn-in .mfp-close {
+    color: #fff;
+    top: 12px;
+    font-size: 30px;
+}

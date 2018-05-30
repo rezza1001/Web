@@ -1,0 +1,1 @@
+[12-May-2017 18:40:36 Asia/Jakarta] PHP Fatal error:  Interface 'Monolog\Handler\HandlerInterface' not found in /home/breakingnews/staging.breakingnews.co.id/vendor/monolog/monolog/src/Monolog/Handler/AbstractHandler.php on line 23
